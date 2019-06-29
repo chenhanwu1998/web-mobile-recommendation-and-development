@@ -1,0 +1,291 @@
+/*整个页面的*/
+body{
+	/*background-image: url(./img/inf2.jpg);*/
+	background-size: 1540px 1080px;
+	width: 1540px;
+	height: 1080px;
+	color: white;
+	font: 14px/1.5 'Microsoft YaHei',arial,tahoma,\5b8b\4f53,sans-serif;
+	
+
+}
+
+/*外层主div的*/
+.div_main{
+/*
+	background: url(./img/white.jpg);  
+	background-size: 1540px 1080px;
+*/
+	opacity: 0.8;
+	width: 1540px;
+	height: 1080px;
+	position: absolute;
+	z-index: 0;
+}
+
+
+
+.div_left1{
+	z-index: 10;
+	width: 100%;
+	height: auto;
+/*	background: url(./img/p2.jpg);*/
+	background-size: 220px 220px;
+	font-family: "bookman old style";
+	color: white;
+/*	opacity: 0.99;*/
+	position:relative;
+	float: left;
+}
+
+
+/*返回用户信息的输入框，在左边的浮动div显示*/
+.input_user_inf{
+	border: black;
+	width: 150px;
+	height: 50px; 
+	background: none;
+	font: "微软雅黑";
+	font-size: 22px;
+}
+
+/*左边浮动的div块用来放基本信息的*/
+
+
+/*左下角的div模块样式*/
+.div_report{
+	width: 100%;
+	height: 100%;
+	color:white;
+	position: relative;
+	
+	
+}
+
+/*右边广告的div模块*/
+/*
+.div_right{
+	width:400px ;
+	height:1080px;
+	background: url(./img/white.jpg);
+	position: absolute;
+	left:1120px;
+	
+}
+*/
+
+/*右上方的广告位*/
+/*
+.div_right_top{
+	width: 400px;
+	height: 300px;
+	position: relative;
+	
+}
+*/
+/*右下方手机排位*/
+.div_right_buttom{
+	width: 400px;
+	height: 760px;
+	position: relative;
+	
+}
+
+
+
+/*自动换图广告那里的图片的大小*/
+.img_right{
+	width: 400px;
+	height: 300px;
+	opacity: 0.9;
+}
+
+#auto_div{
+	width: 400px;
+	height: 300px;
+}
+
+
+/*这一模块在笔记本看不着，在大电脑会显示出来，搞点东西遮上去*/
+.div_right_right{
+	width:400px;
+	height: 1080px;
+	background: url(./img/log2.jpg);
+	background-size: 400px 1080px;
+	left: 1530px;
+	position: absolute;
+	border: solid;
+	
+}
+
+
+
+/*设置标题的浮动在头顶部*/
+.div_top_float{
+	width: 500px;
+	height: 50px;
+	top: 0px;
+	position: relative;
+	float: left;
+	font-size: 40px;
+	align:center;
+}
+
+/*字体*/
+.font_style{
+	font: "微软雅黑";
+	font-size: 20px;
+	color: black;
+}
+
+/*首页，现状等功能按钮的选择*/
+.div_fun_buttom{
+/*	background: url('./img/white.jpg');*/
+/*	background-size: 900px,50px;*/
+	background-color: #B3E5FC;
+	width: 900px;
+	height: 50px;
+	/*left: 220px;*/
+	top: 15px;
+	
+	position: relative;
+	
+}
+
+#div_fun_buttom_daohang{
+/*	background: url('./img/white.jpg');*/
+/*	background-size: 900px,40px;*/
+	z-index:10;
+	top:25px;
+	color: white;
+	width: 1200px;
+	height: 40px;
+	position: relative;
+}
+
+
+
+/*模块选择功能选择按钮*/
+.choice_buttom{
+	width: 100px;
+	height: 30px; 
+	font: "微软雅黑";
+	font-size: 16px;
+	
+}
+
+/*行情选择模块选择功能选择按钮*/
+.choice_buttom1{
+	width: 80px;
+	height: 25px; 
+	font: "微软雅黑";
+	font-size: 16px;
+}
+
+
+/*几个空能模块div的样式，div1，div2......的样式*/
+.div_fun{
+	/*background: url(./img/white.jpg);*/
+/*	background-size: 900px 950px;*/
+	color:white;
+	width: 100%;
+	height: 950px;
+	position: relative;
+	top: 90px;
+	display: none;
+	
+	
+	
+}
+
+/*修改密码部分的输入框样式*/
+.input_modify{
+	width: 250px;
+	height: 40px;
+	font: "微软雅黑";
+	font-size: 20px;
+	color: black;
+}
+
+
+/*手机行情的div、*/
+.div_mobile_market{
+	width: 880px;
+	height: 820px;
+	position: relative;
+}
+
+/*比较小的图片*/
+.img_mobile_market{
+	width: 880px;
+	height: 400px;
+}
+
+/*比较大的㲏*/
+.img_mobile_market1{
+	width: 880px;
+	height: 800px;
+}
+
+
+/*手机搜索的样式**/
+
+#search_title{
+	width: 800px;
+	height: 200px;
+}
+
+#mobile_search_input{
+	width: 450px;
+	height: 50px;
+	font-size: 30px;
+}
+
+#mobile_search_submit{
+	width: 80px;
+	height: 50px;
+	font-size: 30px;
+}
+
+
+
+#iframe_div{
+	 	top: 100px;
+		left: 100px;
+	 	width: 600px;
+	 	height: 500px;	
+	 	position: absolute;
+	 	display: none;
+	 }	
+
+
+/*手机比拼样式*/
+#mobile_bipin_input1,#mobile_bipin_input2{
+	width: 250px;
+	height: 50px;
+	font-size: 30px;
+}
+
+
+
+/*手机推荐*/
+#xuanfu_tuijian{
+	position: absolute;
+	 width: 600px;
+	 height: 300px;
+	  border: black; 
+	  top: 50px;
+	  left:100px; 
+	  background:url(./img/log2.jpg);
+	  background-size: 600px 300px;
+}
+
+
+#mobile_tuijian_brand,#mobile_tuijian_cpu,#mobile_tuijian_net,#mobile_tuijian_bat,#mobile_tuijian_size,#mobile_tuijian_low_price,#mobile_tuijian_high_price{
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+}
+
+
+
