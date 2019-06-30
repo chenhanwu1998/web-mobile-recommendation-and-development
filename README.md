@@ -1,5 +1,6 @@
 # web-
 html/css/js/php/mysql+python实现网站手机推荐网站开发 
+############所有东西已包装在zip文件里
 
 mobile_inf.sql是爬取并且除杂的数据库文件，直接通过mysql导入即可
 
