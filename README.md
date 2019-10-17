@@ -15,4 +15,4 @@ inf_register.php是注册界面
 inf_retrieve.php 是找回密码界面
 pyq.php是论坛功能网站（得通过inf_mgt.php进行跳转才能，有session设置，需要登录）
 pyqcc则是pyq的其他后端操作代码
-提升：谷歌打开更佳
+提示：谷歌打开更佳
